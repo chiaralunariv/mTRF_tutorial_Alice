@@ -29,6 +29,9 @@ import mne
 from mne.externals.pymatreader import read_mat
 import numpy
 from scipy.linalg import pinv
+import os
+
+os.chdir('/Users/chiaralunarivolta/Desktop/mTRF_tutorial_Alice/import_dataset/')
 
 # Location of the Alice dataset
 SRC = Path('/Volumes/GoogleDrive/Shared drives/WS2020/alice-dataset')
